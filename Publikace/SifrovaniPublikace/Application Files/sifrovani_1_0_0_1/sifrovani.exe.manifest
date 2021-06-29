@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="sifrovani.exe" version="1.0.0.1" publicKeyToken="07abb854114ba6f5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="sifrovani" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="sifrovani.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Možnosti manifestu UAC
+          Chcete-li změnit úroveň řízení uživatelských účtů v systému Windows, nahraďte 
+          uzel requestedExecutionLevel jedním z následujících.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Chcete-li využít virtualizaci souborů a registru pro zpětnou 
+         kompatibilitu, odstraňte uzel requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sifrovani.exe" size="12296">
+      <assemblyIdentity name="sifrovani" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Di2ObZWUxYhJNbIyrFYw2AYb28GRSqIIBFJU4ozZL1M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="sifrovani.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-V0EKK07L\Jakub Rejzek" issuerKeyHash="5cd8041b06f1f98da013f280fcc3f8a90a8cd5eb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kdpJtN9jqX0TZCvhuzUw7RhwQyNp5TXQFCcSZnwN/ZM=</DigestValue></Reference></SignedInfo><SignatureValue>rcbgBfszj1lkbJtybOI+GAKj5Mge5iumn3J4UheSG1e9x45Es3gnFiInseo+lsRXAz91IePJ50rc2xkQ1TCRl0kQJnAP1/I1wXzz+0QN+bNCuR2+AWbNfnVuMMgkKgmDew2MncpGwOnMLcUq5v7TxqtmDzNGIkOlhpXpxoLgybs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vdffTFtzL0SHcujDU2pq0Dkw8WaXpMLRNbURkkbpPwuQJnHtuFQRF7J/Ec4xCqytf9/wXtdBPvjaR+ho5qTW8oWycuNNSBF1WKEtunksjEGMuopHi4NPOmZsJy2KN3hHfsZ8T2K8ycIsLIVeg6ZzvF6MM4y6P8XTQs4jAEEz6EU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="93fd0d7c66122714d035e56923437018ed3035bbe12b64137da963dfb449da91" Description="" Url=""><as:assemblyIdentity name="sifrovani.exe" version="1.0.0.1" publicKeyToken="07abb854114ba6f5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-V0EKK07L\Jakub Rejzek</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>E1dL8oDhT0EM5wsdl6W95ZGsMc1XIVB3gYqB2/rk86k=</DigestValue></Reference></SignedInfo><SignatureValue>JK/FbN1AwO2QShJ+b2AvU/nS1SyUYHrzIkMh+CWelhDbNXo3FIxK1DBzP6cV33JUHda2xQ6paflij9QYUOCbjQIWb5tXRjF/qC7M01/kX95YsriO85qB5bZWrptL64AqfoJS/ZqEe93D40V78+51mJRksSQSZAretNYuZm+CiDM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vdffTFtzL0SHcujDU2pq0Dkw8WaXpMLRNbURkkbpPwuQJnHtuFQRF7J/Ec4xCqytf9/wXtdBPvjaR+ho5qTW8oWycuNNSBF1WKEtunksjEGMuopHi4NPOmZsJy2KN3hHfsZ8T2K8ycIsLIVeg6ZzvF6MM4y6P8XTQs4jAEEz6EU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQT9jCTtMOhYFAkDUWT5VYFDANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgATABBAFAAVABPAFAALQBWADAARQBLAEsAMAA3AEwAXABKAGEAawB1AGIAIABSAGUAagB6AGUAazAeFw0yMTA2MjkxMjA0NDJaFw0yMjA2MjkxODA0NDJaMEMxQTA/BgNVBAMeOABMAEEAUABUAE8AUAAtAFYAMABFAEsASwAwADcATABcAEoAYQBrAHUAYgAgAFIAZQBqAHoAZQBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9199MW3MvRIdy6MNTamrQOTDxZpekwtE1tRGSRuk/C5Amce24VBEXsn8RzjEKrK1/3/Be10E++NpH6GjmpNbyhbJy401IEXVYoS26eSyMQYy6ikeLg086ZmwnLYo3eEd+xnxPYrzJwiwshV6DpnO8XowzjLo/xdNCziMAQTPoRQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAI6ErIlIu3G/J1B/UnaAlHjqAAMPi5oCChHMuOsO7IjZNSl/DO9FlnjP2aUzWn72fKdWuDE/rxgFwMhj7XGeh4VM+058oZtHlklVX5qswhr7M6bBjOxOTzeJNJGD+GBYNN3KqpdGXU04lu3kL8LOZYOVX2XVW8BKtLqPgVuH5/XR</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

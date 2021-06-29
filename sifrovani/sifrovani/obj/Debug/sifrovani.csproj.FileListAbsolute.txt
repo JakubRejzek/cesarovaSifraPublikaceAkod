@@ -1,0 +1,14 @@
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\bin\Debug\sifrovani.exe.config
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\bin\Debug\sifrovani.exe
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\bin\Debug\sifrovani.pdb
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.csprojAssemblyReference.cache
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.Form1.resources
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.Properties.Resources.resources
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.csproj.GenerateResource.cache
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.csproj.CoreCompileInputs.cache
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.exe
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.pdb
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\bin\Debug\sifrovani.exe.manifest
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\bin\Debug\sifrovani.application
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.exe.manifest
+C:\Users\Jakub Rejzek\Desktop\Programing\sifrovani\sifrovani\obj\Debug\sifrovani.application
